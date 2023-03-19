@@ -1,0 +1,53 @@
+class Mago:
+    def __init__(self, nome, idade, escola, varinha,forca):
+        # Atributos de instância
+        self.nome = nome 
+        self.idade = idade   
+        self.escola = escola
+        self.varinha = varinha
+        self.forca = forca
+
+        
+    def andar(self):
+        print('Estou andando')
+    
+    def falar(self):
+        print('\nOla! Meu nome é:',self.nome)
+        
+    def invocarMagia(self):
+        print('Invocando magia!')
+    
+    def minhavarinha(self):
+        print('\nA minha varinha é de:', self.varinha)
+        
+    def minhaforca(self):
+        print('\nA minha força é de:', self.forca)
+
+
+
+#Intanciação de um objeto da classe Mago
+hp = Mago('Harry Potter', 17, 'Hogwarts', "Azevinho",2000)
+gd = Mago('Gandalf', 2000, 'Magia Cinza', "Sabugueiro",1500)
+vic = Mago('Vitoria', 19, 'Hogwarts', "Azevinho",1000)
+joa = Mago('João', 22, 'Hogwarts', "Pilriteiro", 500)
+ped = Mago('Pedro', 15, 'Hogwarts', "Teixo", 300)
+
+hp.falar()
+hp.minhavarinha()
+hp.minhaforca()
+
+gd.falar()
+gd.minhavarinha()
+gd.minhaforca()
+
+vic.falar()
+vic.minhavarinha()
+vic.minhaforca()
+
+joa.falar()
+joa.minhavarinha()
+joa.minhaforca()
+
+ped.falar()
+ped.minhavarinha()
+ped.minhaforca()
