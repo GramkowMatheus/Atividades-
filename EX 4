@@ -1,0 +1,33 @@
+class musica:
+    def __init__(self,nome, artista,estilo,ano, tempo):
+        self.artista = artista 
+        self.tempo = tempo   
+        self.ano = ano 
+        self.estilo = estilo
+        self.nome = nome
+        
+    def reproducao(self):
+        print("Reproduzindo a musica ", self.nome)
+    
+    def cantor(self):
+        print("\nEssa musica é cantada por:", self.artista)
+        
+    def reproducao(self):
+        print("Essa musica tem ", self.tempo, "de duração")
+        
+    def reproducao(self):
+        print("Essa musica é do ano", self.ano)    
+    
+    def reproducao(self):
+        print("A musica é do genero ", self.estilo)
+
+musica1 = musica('Fa fe fi fo Funk','Anira', 'Funk', 2019,'3:05')
+musica2 = musica('Sofrência de programar','Ada & Turing','Sertanejo', 1998, '2:58')
+musica3 = musica('Rock n Rolo', 'The Buns','Rock',	1984, '4:01')
+musica4 = musica('Grifinoria Girls', 'Katy Potter', 'Pop',	2017, '2:25')
+musica5 = musica('Outra musica', 'Anira', 'Funk', 2019, '3:05')
+
+
+musica1.reproducao()
+
+
